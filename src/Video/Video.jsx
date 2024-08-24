@@ -16,7 +16,7 @@ function Video(props) {
             <p>{channelName}</p>
             <div className='video-footer'>
               <p>Likes: {likesCount}</p>
-              <button onClick={increaseLikesByOne}>Likes</button>
+              <button className='video-btn' onClick={increaseLikesByOne}>Likes</button>
         </div>
         </div>
         );

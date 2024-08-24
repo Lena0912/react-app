@@ -1,7 +1,7 @@
 .video {
-    width: 15rem;
+    width: 20rem;
     text-align: left;
-    border: 1px solid #0000003a;
+    border: 1px solid rgb(29, 29, 124);
     border-radius: 8px;
     padding: 0.5rem;
 
@@ -20,5 +20,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.video-btn {
+    background-color: rgb(29, 29, 124);
+    color: antiquewhite;
 }
 
